@@ -31,7 +31,7 @@ Simple login system is implemented
 101. Creating new jobs
 101. IPO
 
-# If you are developer
+# If you are a developer
 
 The code is avaliable and you can use it whatever purpose you have. Setup your own server with **issue analysis** project and understand how it works under the hood.
 
