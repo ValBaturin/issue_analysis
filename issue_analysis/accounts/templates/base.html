@@ -4,7 +4,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {% block head %}
-        <title>Base</title>
+        <title>Issue Analysis</title>
         {% endblock %}
     </head>
     <body>
@@ -19,11 +19,14 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Issue Analysis</a>
+                <a class="navbar-brand" href="https://github.com/ValeryBaturin/issue_analysis">Issue Analysis</a>
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 {% if user.is_authenticated %}
                 <ul class="nav navbar-nav">
+                    <li><a href="{% url 'home:add' %}">Add New Issue</a></li>
+                    <li><a href="{% url 'home:all' %}">View All Issues</a></li>
+                    <li><a href="{% url 'home:own' %}">View My Issues</a></li>
                     <li><a href="{% url 'accounts:view_profile' %}">Profile</a></li>
                     <li><a href="{% url 'accounts:edit_profile' %}">Edit Profile</a></li>
                     <li><a href="{% url 'accounts:change_password' %}">Change Password</a></li>
@@ -47,6 +50,13 @@
         {% block body %}
             <h1>Base</h1>
         {% endblock %}
+        <footer class="footer navbar-fixed-bottom">
+        <div class="container">
+        <p class="text-muted">
+            Copyright ©2016-17 Higher School of Economics
+        </p>
+        </div>
+        </footer>
     </body>
     <script
       src="https://code.jquery.com/jquery-3.1.1.min.js"

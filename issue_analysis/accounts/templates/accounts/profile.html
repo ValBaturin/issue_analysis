@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 
+
 {% block head %}
 <title>Profile</title>
 {% endblock %}
@@ -7,10 +8,10 @@
 {% block body %}
 <div class="container">
     <h1>Profile</h1>
-    <p>Username: <em>{{ user }}</em></p>
-    <p>First name: <em>{{ user.first_name }}</em></p>
-    <p>Last name: <em>{{ user.last_name }}</em></p>
-    <p>Email: <em>{{ user.email }}</em></p>
-    <p>Organization: <em>{{ user.organization }}</em></p>
+    <p>Username: {{ user }}</p>
+    <p>First name: {{ user.first_name }}</p>
+    <p>Last name: {{ user.last_name }}</p>
+    <p>Email: {{ user.email }}</p>
 </div>
+
 {% endblock %}

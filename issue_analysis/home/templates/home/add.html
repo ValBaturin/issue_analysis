@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container">
+    <div class="col-md-8">
+        <h2>Add New Issue Analysis</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.title }}
+            <br>
+            {{ form.post }}
+            <br>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
