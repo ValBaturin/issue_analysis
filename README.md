@@ -2,6 +2,20 @@
 
 **issue analysis** project. 
 
+# Usability Review and User Instruction
+1. Registration
+![register](instructions/register.gif)
+2. Login
+![login](instructions/login.gif)
+3. Add a new issue
+![add](instructions/add.gif)
+4. View added issues
+![view](instructions/view.gif)
+5. Logout
+![logout](instructions/logout.gif)
+6. Reset password
+![reset](instructions/reset.gif)
+
 # What we have done
 
 All the possible links collected here. Mention that some of them require login.
