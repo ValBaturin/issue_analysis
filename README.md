@@ -1,35 +1,31 @@
 # Issue Analysis
 
-The brand new way of tracking issues from github projects. In order to make better contribution to the open-source world we are creating the **issue analysis** project. 
-
-Since you found out about us your connection with the world grew up. 
-
-# How to use it
-
-1. Create an account
-2. Choose projects you'd like to contribute from github
-3. Track all new issues online
-4. Be the first to contribute
-5. Make the difference
+**issue analysis** project. 
 
 # What we have done
 
-Simple login system is implemented
+All the possible links collected here. Mention that some of them require login.
 
-[Sign Up](http://185.143.173.229/accounts/signup/)
+[Register](http://valery.pythonanywhere.com/account/register)
 
-[Sign In](http://185.143.173.229/accounts/login/)
+[Login](http://valery.pythonanywhere.com/account/login)
 
-[Forgot password](http://185.143.173.229/accounts/password/reset/)
+[Logout](http://valery.pythonanywhere.com/account/logout)
 
-# What will be done tomorrow(or any other day)
+[Password Reset](http://valery.pythonanywhere.com/account/reset-password/)
 
-1. Follow project
-2. Unfollow project
-3. List of updates
-4. Github account login
-101. Creating new jobs
-101. IPO
+[Profile](http://valery.pythonanywhere.com/account/profile)
+
+[Edit Profile](http://valery.pythonanywhere.com/account/profile/edit/)
+
+[Change Password](http://valery.pythonanywhere.com/account/change-password/)
+
+[Add New Issue](http://valery.pythonanywhere.com/home/add)
+
+[View All Issues](http://valery.pythonanywhere.com/home/all)
+
+[View My issues](http://valery.pythonanywhere.com/home/my)
+
 
 # If you are a developer
 
