@@ -1,6 +1,6 @@
 # Issue Analysis
 
-**issue analysis** project. 
+Imagine you have a big problem to solve like image recognition or stock market prediction. There are several people in your company who solve the same problem inside the same team. And, of cource, you need to collaborate! This tool provides the easiest way to make the difference inside a project that you work on so hard. Easy to deploy, easy to use. So much profit!
 
 # Usability Review and User Instruction
 **1. Registration**
@@ -11,11 +11,11 @@
 
 ![login](instructions/login.gif)
 
-**3. Add a new issue**
+**3. Add a new issue analysis**
 
 ![add](instructions/add.gif)
 
-**4. View added issues**
+**4. View added issue analysis**
 
 ![view](instructions/view.gif)
 
