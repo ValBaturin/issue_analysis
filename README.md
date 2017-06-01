@@ -3,19 +3,19 @@
 **issue analysis** project. 
 
 # Usability Review and User Instruction
-1. **Registration**
+**1. Registration**
 
 ![register](instructions/register.gif)
 
-2. **Login**
+**2. Login**
 
 ![login](instructions/login.gif)
 
-3. **Add a new issue**
+**3. Add a new issue**
 
 ![add](instructions/add.gif)
 
-4. **View added issues**
+**4. View added issues**
 
 ![view](instructions/view.gif)
 
