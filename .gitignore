@@ -5,4 +5,4 @@ __pycache__
 venv
 .idea
 *.pyc
-settings.py
+issue_analysis/issue_analysis/settings.py
